@@ -1,0 +1,6 @@
+.venv/
+response.json
+payload.json
+__pycache__/
+.env
+Dockerfile
