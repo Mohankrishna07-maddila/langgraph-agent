@@ -1,0 +1,19 @@
+{
+  "agentRuntimeName": "LangGraphAgent",
+  "agentRuntimeArtifact": {
+    "containerConfiguration": {
+      "containerUri": "283548940267.dkr.ecr.ap-south-2.amazonaws.com/langgraph-agent:latest"
+    }
+  },
+  "roleArn": "arn:aws:iam::283548940267:role/AgentCoreRuntimeRole",
+  "networkConfiguration": {
+    "networkMode": "PUBLIC"
+  },
+  "protocolConfiguration": {
+    "serverProtocol": "HTTP"
+  },
+  "environmentVariables": {
+    "BEDROCK_MODEL_ID": "global.anthropic.claude-haiku-4-5-20251001-v1:0"
+  },
+  "description": "LangGraph agent using Amazon Bedrock Claude Haiku 4.5"
+}
